@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "raleway";
+}
+
+img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: auto;
+    padding: 20px;
+}
+
+header.title{
+    padding: 20px;
+    text-align: center;
+    animation-name: colorchange;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+@keyframes colorchange{
+    0%{background-color: #BB6588;}
+    25%{background-color: #8889CC;}
+    50%{background-color: #BB6588;}
+    75%{background-color: #8889CC;}
+    100%{background-color: #BB6588;}
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article{ 
+float: left;
+padding: 20px;
+width: 55%;
+height: 300px;
+color: white;
+text-align: center;
+opacity: 1;
+transition: 0.35s;
+
+}
+article:hover{ 
+    opacity: 0.55;
+    
+}
+
+section::after{
+content: "";
+display: table;
+text-align: center;
+color: aliceblue;
+clear: both;
+}
+
+    /* divs */
+
+div.gallery{
+float: right;
+width: 45%;
+background: #500a59;
+padding: 20px;
+height: 300px;
+border: 20px black; 
+    
+}
+div.description{
+text-align: center;
+border-style:solid;
+border-color: #664F8c;
+padding: 20px;
+}
+
