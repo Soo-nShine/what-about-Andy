@@ -86,6 +86,7 @@ text-align: center;
 border-style:solid;
 border-color: #664F8c;
 padding: 20px;
+overflow: hidden;
 }
 
 @media(max-width: 600px){
