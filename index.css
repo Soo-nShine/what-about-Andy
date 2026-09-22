@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    overflow: hidden;
 }
 body{
     margin: 0;
@@ -55,6 +54,7 @@ color: white;
 text-align: center;
 opacity: 1;
 transition: 0.35s;
+overflow: hidden;
 
 }
 article:hover{ 
