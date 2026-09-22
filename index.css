@@ -15,7 +15,7 @@ img{
     padding: 20px;
 }
 
-header.title{
+header.title, footer{
     padding: 20px;
     text-align: center;
     animation-name: colorchange;
@@ -26,11 +26,11 @@ header.title{
 }
 
 @keyframes colorchange{
-    0%{background-color: #BB6588;}
+    0%{background-color: #664F8c;}
     25%{background-color: #8889CC;}
-    50%{background-color: #BB6588;}
-    75%{background-color: #8889CC;}
-    100%{background-color: #BB6588;}
+    50%{background-color: #FF91AF;}
+    75%{background-color: #9400D3;}
+    100%{background-color: #6C3082;}
 }
 
 header{
@@ -42,8 +42,7 @@ header{
 footer{
     text-align: center;
     padding: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+   
 }
 
 article{ 
@@ -88,3 +87,9 @@ border-color: #664F8c;
 padding: 20px;
 }
 
+@media(max-width: 600px){
+    div.gallery, article, div.description, section{
+        width: 100%;
+        height: auto;
+    }
+}
